@@ -16,7 +16,7 @@ El proyecto comprende el diseño y construcción de la cabina prototipo, los sis
 
 La información se encuentra organizada en las siguientes carpetas:
 
-- **Data Ciclos Cultivo:** datos registrados durante los ciclos experimentales, archivos consolidados y scripts de procesamiento y auditoría.
+- **Data Ciclos Cultivo:** datos registrados durante los ciclos experimentales, registros diarios y scripts de procesamiento y auditoría. Los archivos CSV consolidados de gran tamaño se conservan en Google Drive.
 - **Diseños 3D:** modelos tridimensionales de la cabina, sus sistemas y componentes individuales, en formatos F3D y STEP.
 - **Interfaz Node-RED y AGRO-BOT:** archivos JSON correspondientes a los flujos de Node-RED y AGRO-BOT.
 - **KiCad PCB:** proyectos de KiCad correspondientes a las PCB principal, de potencia y de sensores.
@@ -67,7 +67,9 @@ Los proyectos contenidos en `KiCad PCB` pueden abrirse mediante KiCad conservand
 
 ### Datos experimentales
 
-Los archivos de `Data Ciclos Cultivo` contienen tanto los registros originales como los archivos consolidados y los scripts utilizados para su procesamiento y auditoría.
+Los archivos de `Data Ciclos Cultivo` contienen los registros diarios originales y los scripts utilizados para su procesamiento y auditoría.
+
+Los archivos CSV consolidados de gran tamaño se conservan en el repositorio complementario de Google Drive, cuyo enlace se encuentra en la sección **Recursos del proyecto**.
 
 ## 6. Datos y documentación
 
