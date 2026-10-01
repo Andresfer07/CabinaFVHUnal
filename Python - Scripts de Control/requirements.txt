@@ -1,0 +1,20 @@
+# Dependencias de Python para el sistema de control de la cabina FVH
+# Probado en Raspberry Pi OS (Raspberry Pi 3B+)
+# Instalar con: pip3 install -r requirements.txt
+
+# --- GPIO y actuadores ---
+RPi.GPIO
+gpiozero
+rpi_ws281x          # Control de LEDs WS2812B (Adafruit_NeoPixel)
+
+# --- Comunicación ---
+paho-mqtt            # Cliente MQTT (Mosquitto)
+sdnotify              # Notificación de estado a systemd
+
+# --- Cálculo numérico ---
+numpy
+
+# --- Sensores I2C (HTU21D vía TCA9548A) ---
+Adafruit-Blinka       # Provee los módulos board y busio
+adafruit-circuitpython-tca9548a
+adafruit-circuitpython-htu21d
