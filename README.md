@@ -17,7 +17,7 @@ El proyecto comprende el diseño y construcción de la cabina prototipo, los sis
 La información se encuentra organizada en las siguientes carpetas:
 
 - **Data Ciclos Cultivo:** datos registrados durante los ciclos experimentales, registros diarios y scripts de procesamiento y auditoría. Los archivos CSV consolidados de gran tamaño se conservan en Google Drive.
-- **Diseños 3D:** modelos tridimensionales de la cabina, sus sistemas y componentes individuales, en formatos F3D y STEP.
+- **Diseños 3D:** modelos tridimensionales de la cabina, sus sistemas y componentes individuales. Los archivos F3D y STEP se conservan en Google Drive debido a su tamaño y características como archivos de diseño.
 - **Interfaz Node-RED y AGRO-BOT:** archivos JSON correspondientes a los flujos de Node-RED y AGRO-BOT.
 - **KiCad PCB:** proyectos de KiCad correspondientes a las PCB principal, de potencia y de sensores.
 - **Python - Scripts de Control:** software de control ejecutado en la Raspberry Pi y archivos de datos utilizados por el sistema.
@@ -59,7 +59,9 @@ Los flujos de Node-RED pueden reproducirse mediante la opción de **Importar** d
 
 ### Diseños 3D
 
-Los archivos F3D pueden abrirse y editarse mediante Autodesk Fusion 360. Los archivos STEP permiten la visualización e interoperabilidad con otros programas de diseño asistido por computador.
+Los modelos tridimensionales desarrollados durante el proyecto se encuentran disponibles en el repositorio complementario de Google Drive, cuyo enlace se encuentra en la sección **Recursos del proyecto**.
+
+Los archivos F3D pueden abrirse y editarse mediante Autodesk Fusion 360. Los archivos STEP permiten la visualización e interoperabilidad de los modelos con otros programas de diseño asistido por computador.
 
 ### Diseños PCB
 
