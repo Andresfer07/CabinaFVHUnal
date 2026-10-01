@@ -1,0 +1,199 @@
+{
+    "lighting": {
+        "mode": "manual",
+        "colors": [
+            [
+                255,
+                0,
+                0
+            ],
+            [
+                255,
+                0,
+                0
+            ],
+            [
+                255,
+                255,
+                255
+            ],
+            [
+                0,
+                0,
+                255
+            ],
+            [
+                0,
+                0,
+                255
+            ]
+        ],
+        "brightness": 255,
+        "pattern": "default",
+        "save_as": null,
+        "enabled": false,
+        "schedule": {
+            "1": {
+                "enabled": false
+            },
+            "2": {
+                "enabled": false
+            },
+            "3": {
+                "enabled": false
+            },
+            "4": {
+                "enabled": false
+            },
+            "5": {
+                "enabled": true
+            },
+            "6": {
+                "enabled": true
+            },
+            "7": {
+                "enabled": true
+            },
+            "8": {
+                "enabled": true
+            },
+            "9": {
+                "enabled": true
+            },
+            "10": {
+                "enabled": true
+            },
+            "11": {
+                "enabled": true
+            },
+            "12": {
+                "enabled": true
+            }
+        },
+        "last_applied": "STOP_RESET",
+        "last_cycle_status": "idle",
+        "last_applied_str": "HARDWARE_OFF"
+    },
+    "ventilation": {
+        "mode": "manual",
+        "roof_duty": 0,
+        "side_duty": 0,
+        "current_temp": 25.0,
+        "config": {
+            "temp_low": 24,
+            "temp_medium": 27,
+            "temp_high": 30,
+            "humidity_low": 70,
+            "humidity_medium": 78,
+            "humidity_high": 85,
+            "delta_low_t": 1,
+            "delta_high_t": 3,
+            "delta_low_h": 5,
+            "delta_high_h": 9
+        },
+        "last_r": 0,
+        "last_s": 0,
+        "last_cycle_status": "idle",
+        "alarms": {
+            "overheat": true,
+            "humidity_critical": false
+        },
+        "temp_critical_type": "high",
+        "humidity_critical_type": null,
+        "gradiente": -2.38,
+        "delta_h": 19.78,
+        "temp_in": 29.6,
+        "hum_in": 84.45
+    },
+    "irrigation": {
+        "mode": "manual",
+        "pressurized_once": true,
+        "force_off": false,
+        "last_emergency": "2026-09-26T16:23:54.405779",
+        "current_day": 1,
+        "water_level": 42.2,
+        "last_programmed": "2026-09-26T16:08:51.008813",
+        "last_midnight": "2026-09-26",
+        "remaining_seconds": 0,
+        "irrigation_active": false,
+        "irrigation_paused": false,
+        "pump": 0,
+        "valves": [
+            0,
+            0
+        ],
+        "mixer": 0,
+        "irrigation_times": [
+            "06:00",
+            "07:45",
+            "09:30",
+            "11:15",
+            "13:00",
+            "14:45",
+            "16:09",
+            "18:15"
+        ],
+        "completed_today": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "duration_per_day": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            32,
+            32
+        ],
+        "no_flow_detected": false,
+        "config": {
+            "pressurize_time": 8.0,
+            "temp_emergency": 30.0,
+            "hum_emergency": 75,
+            "time_irrigation_emergency": 8
+        },
+        "alarms": {
+            "emergency_heat": false,
+            "tank_low": false,
+            "pressurize_failed": false,
+            "power_loss": false,
+            "sensor_error": false,
+            "flow_error": false
+        },
+        "fail_count": 0,
+        "flow_rate": 4.62,
+        "water_pressurization_liters": 0.31,
+        "water_total_auto_liters": 1.26,
+        "water_cycle_total_liters": 1.57,
+        "irrigation_duration": 8,
+        "irrigation_reason": null,
+        "volume_liters": 0.61,
+        "water_manual_liters": 0.0,
+        "water_programmed_liters": 0.65,
+        "water_emergency_liters": 0.61
+    },
+    "sensors": {
+        "last_read": "2026-09-26T14:31:07"
+    },
+    "system": {
+        "cycle_status": "idle",
+        "drying_start": null,
+        "_internal": false,
+        "last_cycle_before_shutdown": "idle",
+        "dirty_shutdown": false,
+        "boot_time": "2026-09-26T23:39:36",
+        "last_restart_during_irrigation": false
+    }
+}
