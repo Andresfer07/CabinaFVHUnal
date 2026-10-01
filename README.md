@@ -2,7 +2,7 @@
 
 ## 1. Descripción
 
-Este repositorio contiene los archivos, diseños, datos y software desarrollados durante el proyecto **“Diseño e implementación de una cabina prototipo automatizada de bajo costo para la producción de Forraje Verde Hidropónico (FVH)”**.
+Este repositorio contiene los archivos, diseños, datos y software desarrollados durante el proyecto **"Diseño e implementación de una cabina prototipo automatizada de bajo costo para la producción de Forraje Verde Hidropónico (FVH)"**.
 
 El proyecto comprende el diseño y construcción de la cabina prototipo, los sistemas electrónicos y de control, el software de automatización, la interfaz de supervisión, AGRO-BOT, los diseños tridimensionales, los diseños de PCB, los datos de los ciclos de cultivo y el registro fotográfico del desarrollo del proyecto.
 
@@ -21,7 +21,7 @@ La información se encuentra organizada en las siguientes carpetas:
 - **Interfaz Node-RED y AGRO-BOT:** archivos JSON correspondientes a los flujos de Node-RED y AGRO-BOT.
 - **KiCad PCB:** proyectos de KiCad correspondientes a las PCB principal, de potencia y de sensores.
 - **Python - Scripts de Control:** software de control ejecutado en la Raspberry Pi y archivos de datos utilizados por el sistema.
-- **Registro Fotográfico:** registro visual de la construcción de la cabina y de los ciclos de cultivo.
+- **Registro Fotográfico:** registro visual de la construcción de la cabina y de los ciclos de cultivo. Las fotografías se conservan en el repositorio complementario de Google Drive debido a su tamaño.
 
 Cada carpeta contiene un README específico con información sobre su contenido y organización.
 
@@ -51,11 +51,15 @@ Para ejecutar el sistema de control en la Raspberry Pi:
 sudo python3 main2.py
 ```
 
+Las dependencias de Python requeridas se encuentran especificadas en el archivo `requirements.txt` de la carpeta `Python - Scripts de Control`.
+
 El uso de `sudo` es necesario debido a los requerimientos de acceso al hardware utilizados para el control de la iluminación mediante LEDs WS2812B.
 
 ### Flujos de Node-RED
 
 Los flujos de Node-RED pueden reproducirse mediante la opción de **Importar** de Node-RED a partir de los archivos JSON proporcionados en `Interfaz Node-RED y AGRO-BOT`.
+
+Los nodos de MQTT e InfluxDB requieren ajustar la dirección del broker y la base de datos según el entorno de ejecución (ver README de la carpeta `Interfaz Node-RED y AGRO-BOT`).
 
 ### Diseños 3D
 
@@ -73,6 +77,10 @@ Los archivos de `Data Ciclos Cultivo` contienen los registros diarios originales
 
 Los archivos CSV consolidados de gran tamaño se conservan en el repositorio complementario de Google Drive, cuyo enlace se encuentra en la sección **Recursos del proyecto**.
 
+### Registro Fotográfico
+
+El registro fotográfico de la construcción de la cabina y de los ciclos de cultivo se encuentra disponible en el repositorio complementario de Google Drive, cuyo enlace se encuentra en la sección **Recursos del proyecto**.
+
 ## 6. Datos y documentación
 
 Los datos, diseños y archivos de software contenidos en este repositorio corresponden a los desarrollos realizados durante el proyecto y constituyen el soporte técnico y experimental de la tesis.
@@ -87,6 +95,7 @@ Para la reproducción de los archivos digitales se requieren las herramientas co
 
 - Raspberry Pi OS y Python para el software de control.
 - Node-RED para los flujos de supervisión y control.
+- Mosquitto (broker MQTT) e InfluxDB para la comunicación y el almacenamiento de datos.
 - KiCad para los diseños de PCB.
 - Autodesk Fusion 360 u otro software compatible para los modelos 3D.
 - Herramientas compatibles con archivos CSV y JSON para la consulta de datos.
